@@ -17,7 +17,7 @@ def home():
 
 @app.route('/favicon.ico')
 def favicon():
-    return "", 204  # Empty response to avoid 404 error
+    return "", 204  
 
 @app.route('/htop')
 def show_system_info():
